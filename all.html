@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title id="headtitle">Voir l'index</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="stylesheet.css">
+      <style>
+        html{
+          position: relative;
+        }
+        body{
+          position: relative;
+        }
+      </style>
+  </head>
+
+  <body>
+    <h1 class="classtitle" id="bodytitle">Bienvenue dans l'index !</h1>
+    <script src="src/all.js"></script>
+    <ul class="theme" id="mainList"></ul>
+    <div id="notInResearchMode" class="classpiche">
+      <label>Mots-clefs |</label>
+      <input type="text" id="keywords">
+      <p>Chercher dans thème |
+        <select id="themeSelect"></select>
+      </p>
+      <input type="button" class="researchbutton" value="Rechercher" id="research">
+      <input type="button" class="researchbutton" value="Ajouter un thème" id="addTheme">
+      <input type="button" class="dangerousbutton" value="Vider l'index" id="deleteAll">
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "CONTRO MANIA",
+  "description": "Index de favoris et moteur de recherche interne",
+  "version": "1.0.1",
+
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "unlimitedStorage"
+  ],
+  "icons": {
+    "32": "images/livre-32.png",
+    "64": "images/contro-64.png",
+    "128": "images/loupe-128.png",
+    "256": "images/codex-256.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}

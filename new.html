@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ajouter à l'index</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="src/lib/pdf.worker.js"></script>
+    <script src="src/lib/pdf.js"></script>
+    <script src="src/new.js"></script>
+  </head>
+
+
+  <body>
+    <div class="classtitle">
+      <form method="post">
+        <p><label>Titre</label>
+        <br/><input type="text" id="title"></p>
+        <p><label>Commentaire</label>
+        <br/><textarea id="comment" rows="3"></textarea></p>
+        <p>
+          <label>Thème</label>
+          <select id="select"></select>
+        </p>
+        <p><input type="button" class="smartbutton" id="confirm" value="Confirmer"></p>
+      </form>
+    </div>
+  </body>
+</html>
